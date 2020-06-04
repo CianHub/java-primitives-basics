@@ -36,5 +36,32 @@ public class Main {
 
 		short myNewShortValue = (short) (myMinShortValue / 2);
 
+		byte myByte = 126;
+
+		short myShort = 32767;
+
+		int myInt = 100;
+
+		long myLong = (50000L + ((myByte + myInt + myShort) * 10L));
+
+		System.out.println(myLong);
+
+		float myMinFloatValue = Float.MIN_VALUE;
+		float myMaxFloatValue = Float.MAX_VALUE;
+		System.out.println(myMaxFloatValue);
+		System.out.println(myMinFloatValue);
+
+		double myMinDoubleValue = Double.MIN_VALUE;
+		double myMaxDoubleValue = Double.MAX_VALUE;
+		System.out.println(myMaxDoubleValue);
+		System.out.println(myMinDoubleValue);
+
+		int myNewIntVal = 5;
+		float myFloat = 5.25f; // add an f after a float or cast, double is default
+		double myDouble = 5d; // add a d after a double
+
+
+
+
 	}
 }
