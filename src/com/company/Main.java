@@ -24,5 +24,10 @@ public class Main {
 		long myMaxLongValue = Long.MAX_VALUE;
 		System.out.println("Min = " + myMinLongValue + " Max = " + myMaxLongValue);
 
+		long bigLong = 2147483647 + 1L;
+		System.out.println(bigLong);
+
+		short bigShort = 32767;
+
 	}
 }
