@@ -56,12 +56,16 @@ public class Main {
 		System.out.println(myMaxDoubleValue);
 		System.out.println(myMinDoubleValue);
 
-		int myNewIntVal = 5;
-		float myFloat = 5.25f; // add an f after a float or cast, double is default
-		double myDouble = 5d; // add a d after a double
+		float myFloat = 5.25f / 2f; // add an f after a float or cast, double is default
+		double myDouble = 5d / 2d; // add a d after a double to be more specific but unnecessary
 
+		System.out.println(myDouble);
+		System.out.println(myFloat);
 
+		int myWeight = 178;
+		double myWeightInKG = myWeight * 0.45359237d;
 
+		System.out.println(myWeightInKG);
 
 	}
 }
