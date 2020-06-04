@@ -29,5 +29,12 @@ public class Main {
 
 		short bigShort = 32767;
 
+		int myTotal = (myMinIntValue / 2);
+
+		// int is assumed by default have to cast to another type
+		byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+		short myNewShortValue = (short) (myMinShortValue / 2);
+
 	}
 }
